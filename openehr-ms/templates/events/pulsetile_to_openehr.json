@@ -1,0 +1,26 @@
+{
+  "ctx": {
+    "language": "en",
+    "territory": "GB",
+    "composer_name": "{{author}}",
+    "time": "{{now}}",
+    "id_namespace": "Ripple",
+    "id_scheme": "Ripple",
+    "health_care_facility|name": "Ripple General",
+    "health_care_facility|id": "9091"
+  },
+  "service_tracker": {
+    "service": [
+      {
+        "ism_transition": {
+          "current_state|code": "526",
+          "current_state|value": "planned"
+        },
+        "service_name": "{{name}}",
+        "service_type": "{{type}}",
+        "description": "{{description}}",
+        "time": "{{dateTime}}"
+      }
+    ]
+  }
+}

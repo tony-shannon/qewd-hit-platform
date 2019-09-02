@@ -1,0 +1,37 @@
+{
+  "ctx": {
+    "composer_name": "{{author}}",
+    "health_care_facility|id": "999999-345",
+    "health_care_facility|name": "Home",
+    "id_namespace": "NHS-UK",
+    "id_scheme": "2.16.840.1.113883.2.1.4.3",
+    "language": "en",
+    "territory": "GB",
+    "time": "{{now}}"
+  },
+  "relevant_contacts_list": {
+    "relevant_contacts": {
+      "relevant_contact": [
+        {
+          "individual_person": {
+            "person_name": {
+              "unstructured_name": "{{name}}"
+            },
+            "address": {
+              "address_description": "{{contactInformation}}"
+            },
+            "contact_details": [
+              {
+                "comms_description": "{{contactInformation}}"
+              }
+            ]
+          },
+          "relationship_category|code": "at0036",
+          "relationship_role": "{{relationship}}",
+          "is_next_of_kin": "{{nextOfKin}}",
+          "note": "{{notes}}"
+        }
+      ]
+    }
+  }
+}

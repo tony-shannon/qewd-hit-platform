@@ -1,0 +1,27 @@
+{
+  "ctx": {
+    "composer_name": "{{author}}",
+    "health_care_facility|id": "999999-345",
+    "health_care_facility|name": "Home",
+    "id_namespace": "NHS-UK",
+    "id_scheme": "2.16.840.1.113883.2.1.4.3",
+    "language": "en",
+    "territory": "GB",
+    "time": "2015-10-22T00:11:02.518+02:00"
+  },
+  "problem_list": {
+    "problems_and_issues": {
+      "problem_diagnosis": [
+        {
+          "date_time_of_onset": "{{dateOfOnset}}",
+          "problem_diagnosis_name|value": "{{problem}}",
+          "problem_diagnosis_name|code": "{{code}}",
+          "problem_diagnosis_name|terminology": "{{terminology}}",
+          "clinical_description|value": "{{description}}",
+          "clinical_description|code": "{{obj.code}}",
+          "clinical_description|terminology": "{{obj.terminology}}"
+        }
+      ]
+    }
+  }
+}
