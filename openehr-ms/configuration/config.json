@@ -5,5 +5,8 @@
     "serverName": "OpenEHR Service",
     "poolSize": 3
   },
-  "imported": true
-}
+  "imported": true,
+  "jwt": {
+        "secret": "560d9cd2-e5f6-4d23-87f7-5606bf7fd921"
+      }
+  }

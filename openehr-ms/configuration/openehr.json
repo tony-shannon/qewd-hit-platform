@@ -1,5 +1,5 @@
 {
-  "host": "http://192.168.1.200:8080",
+  "host": "http://157.245.45.22:8082",
   "username": "guest",
   "password": "guest",
   "platform": "ethercis",
@@ -13,6 +13,21 @@
     },
     "medications": {
       "templateId": "IDCR - Medication Statement List.v0"
+    },
+    "problems": {
+      "templateId": "IDCR - Problem List.v1"
+    },
+     "vaccinations": {
+      "templateId": "IDCR - Immunisation summary.v0"
+    },
+    "contacts": {
+      "templateId": "IDCR - Relevant contacts.v0"
+    },
+    "events": {
+      "templateId": "IDCR - Service tracker.v0"
+    },
+     "vitalsigns": {
+      "templateId": "IDCR - Vital Signs Encounter.v1"
     }
   }
 }
