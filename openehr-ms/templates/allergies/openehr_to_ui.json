@@ -6,9 +6,9 @@
   "allergies": [
     "{{adverse_reaction_list.allergies_and_adverse_reactions.adverse_reaction_risk}}",
     {
-      "cause": "{{['causative_agent|value']}}",
+      "cause": "=> either(['causative_agent|value'], causative_agent)",
       "reactions": "{{reaction_details.manifestation[0]}}",
-      "comment": "{{comment}}"
+      "comment": "{{reaction_details.comment}}"
     }
   ] 
 }
