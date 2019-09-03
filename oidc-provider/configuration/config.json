@@ -4,5 +4,8 @@
     "managementPassword": "oidc",
     "serverName": "HIT Platform OpenId-Connect Provider",
     "poolSize": 3
+  },
+  "jwt": {
+    "secret": "f7fb1be8-0727-4203-ac20-b3d3f00a1bc2"
   }
 }
